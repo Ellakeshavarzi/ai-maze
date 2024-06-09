@@ -1,7 +1,7 @@
-import queue    #for BFS
+import queue    # BFS صف برای 
 
-import heapq    #for A*
-import math     #for A*
+import heapq    # A* صف اولویت دار برای 
+import math     # A* توابع ریاضی برای 
 
 def read_maze(file_path):
     with open(file_path, 'r') as f:
